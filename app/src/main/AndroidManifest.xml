@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mws.aplikasidatafilm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiDataFilm">
+        <activity
+            android:name=".activity.menu.menu_about"
+            android:exported="false" />
+        <activity
+            android:name=".activity.menu.menu_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".activity.updatefilm.FilmUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".activity.splash.splash_screen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.login.login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.add.FilmAdd"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

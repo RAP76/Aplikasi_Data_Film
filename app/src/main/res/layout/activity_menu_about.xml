@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.menu.menu_about"
+    android:orientation="vertical"
+    android:background="@drawable/latarbelakang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Aplikasi Ini dibuat untuk memenuhi Tugas Kelompok Mobile Web Service Praktik IX"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/gold"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="Anggota Kelompok : "
+            android:textColor="@color/gold"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/anggota_kel1"
+                android:layout_margin="15dp"
+                android:textColor="@color/ungu"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/anggota_kel2"
+                android:layout_margin="15dp"
+                android:textColor="@color/ungu"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/anggota_kel3"
+                android:layout_margin="15dp"
+                android:textColor="@color/ungu"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/anggota_kel4"
+                android:layout_margin="15dp"
+                android:textColor="@color/ungu"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/anggota_kel5"
+                android:layout_margin="15dp"
+                android:textColor="@color/ungu"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/anggota_kel6"
+                android:layout_margin="15dp"
+                android:textColor="@color/ungu"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:backgroundTint="#4FE435"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:drawableLeft="@drawable/arrow_back_24"
+        android:text="back"
+        android:id="@+id/btn_back"/>
+
+</LinearLayout>
